@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SteFontsAndColors_Example' do
+  pod 'SteFontsAndColors', :path => '../'
+
+  target 'SteFontsAndColors_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
