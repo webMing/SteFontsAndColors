@@ -1,0 +1,22 @@
+{
+  "name": "SteFontsAndColors",
+  "version": "0.1.0",
+  "summary": "测试项目中用到的字体和颜色",
+  "description": "测试项目中用到的字体和颜色基础库",
+  "homepage": "https://github.com/webMing/SteFontsAndColors",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "webMing": "="
+  },
+  "source": {
+    "git": "https://github.com/webMing/SteFontsAndColors.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SteFontsAndColors/Classes/**/*"
+}

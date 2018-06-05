@@ -1,0 +1,6 @@
+framework module SteFontsAndColors {
+  umbrella header "SteFontsAndColors-umbrella.h"
+
+  export *
+  module * { export * }
+}

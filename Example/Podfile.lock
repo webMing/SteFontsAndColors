@@ -1,0 +1,16 @@
+PODS:
+  - SteFontsAndColors (0.1.0)
+
+DEPENDENCIES:
+  - SteFontsAndColors (from `../`)
+
+EXTERNAL SOURCES:
+  SteFontsAndColors:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SteFontsAndColors: b968992f6bf361252455822576394c52e4ceb731
+
+PODFILE CHECKSUM: d722a21ecdc3a1fd508f6b559dd7395fed3c960c
+
+COCOAPODS: 1.5.0

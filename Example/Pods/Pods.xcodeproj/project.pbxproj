@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04BDE1BD2A28B66CDCE2C3E2DBAE3CF0 /* Pods-SteFontsAndColors_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9573251CEC46820F2B1831830B57D5A /* Pods-SteFontsAndColors_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A5971E21025A81EECD35EC2A2ECF394 /* SteFontsAndColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E048BA6753189F906A9A014E93ED1DD9 /* SteFontsAndColors-dummy.m */; };
+		202B39365AB65291F8BEC758542DD32E /* Pods-SteFontsAndColors_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD818F8B48C827005C5E06E4A01C7D5 /* Pods-SteFontsAndColors_Example-dummy.m */; };
+		243466A2331DD51BB2C5F36672943AB1 /* SteFont.h in Headers */ = {isa = PBXBuildFile; fileRef = B78854E6905C80481A3DAEEBE746E83C /* SteFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29E677F1E1A4A5690807E8F2E9B13EB9 /* SteFontsAndColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ADA4F56AB42F09C98ABB5336188B60A /* SteFontsAndColors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35A4A9AEAAF1C3F4E974E82830BF23CA /* UIColor+SteAddtion.h in Headers */ = {isa = PBXBuildFile; fileRef = C08590D06059182D76F1FF881C0344AA /* UIColor+SteAddtion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E18D15869811F1D5CC001EA36322F5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4BFFD28AB6C443475BC9B8939A164189 /* Pods-SteFontsAndColors_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB0918C8234F59AA5554B3996A9F798 /* Pods-SteFontsAndColors_Tests-dummy.m */; };
+		8A5F61FD4577D99338BEC8DBE7C7EC4F /* SteColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A99384DFAD1673D4C1CAAB339B7BF9F /* SteColors.m */; };
+		9EEDF4C1960AE762DDF38DB9173D88D8 /* Pods-SteFontsAndColors_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF7F84D32193197104FCED6B59CBE211 /* Pods-SteFontsAndColors_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FC97CC3F7453B6B73800FEA5F108761 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A2702FDBC22A97439609C113671A8157 /* SteFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2631632EB21B6E75B60E2158046BD7 /* SteFont.m */; };
+		B429EA042616F39CF9C6BE4F5009ED97 /* SteColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 946043F65C8F3C858BFF7DB5CA911DCA /* SteColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB838F7CE0871F5451CC33F814B0FC21 /* UIColor+SteAddtion.m in Sources */ = {isa = PBXBuildFile; fileRef = 725093C40377B30E5EFDAD66F548D61A /* UIColor+SteAddtion.m */; };
+		D64A10D7D6FE48360109AD786FFD6708 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67913E0E79D6372C11E2886B301C2EDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C648EDA083A75F6829A305CAA00132EE;
+			remoteInfo = "Pods-SteFontsAndColors_Example";
+		};
+		DC17A5C710DA6945BCBC9D2745525311 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5198C684332A4347E59ED6FB0C4C5495;
+			remoteInfo = SteFontsAndColors;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AC769890DEF37503C3736CE40C3E8AE /* Pods-SteFontsAndColors_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SteFontsAndColors_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0B6E472B4FFAF6A49061D7AEB5BED7F4 /* SteFontsAndColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SteFontsAndColors.xcconfig; sourceTree = "<group>"; };
+		0DDFBA0357B88A7932641A02A38AB51A /* Pods-SteFontsAndColors_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SteFontsAndColors_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0E0D8AA1A5BD9D149E388FA7C5B711D8 /* Pods-SteFontsAndColors_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SteFontsAndColors_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0FB0918C8234F59AA5554B3996A9F798 /* Pods-SteFontsAndColors_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SteFontsAndColors_Tests-dummy.m"; sourceTree = "<group>"; };
+		26CE158DEB00A6406AF6762932BFF60C /* Pods-SteFontsAndColors_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SteFontsAndColors_Example-resources.sh"; sourceTree = "<group>"; };
+		27FC61B35ABEC0404F17CC4847C18821 /* Pods_SteFontsAndColors_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SteFontsAndColors_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A99384DFAD1673D4C1CAAB339B7BF9F /* SteColors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SteColors.m; path = SteFontsAndColors/Classes/SteColors.m; sourceTree = "<group>"; };
+		42FB98D7E021B32D899813BE0FC7467F /* Pods-SteFontsAndColors_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SteFontsAndColors_Tests-resources.sh"; sourceTree = "<group>"; };
+		45D3DA3D31BE805D1EEBE9459C3C442D /* SteFontsAndColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SteFontsAndColors-prefix.pch"; sourceTree = "<group>"; };
+		48D07160A982AE2A332306B606AB34CF /* Pods-SteFontsAndColors_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SteFontsAndColors_Tests.modulemap"; sourceTree = "<group>"; };
+		48F6143C10C374E9D843E5B7562CCC82 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4E94D462D94226EE49442E082790F89A /* Pods-SteFontsAndColors_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SteFontsAndColors_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4F2631632EB21B6E75B60E2158046BD7 /* SteFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SteFont.m; path = SteFontsAndColors/Classes/SteFont.m; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6ADA4F56AB42F09C98ABB5336188B60A /* SteFontsAndColors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SteFontsAndColors-umbrella.h"; sourceTree = "<group>"; };
+		6EF909C02979214CA1D71AC977E84C51 /* Pods-SteFontsAndColors_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SteFontsAndColors_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		725093C40377B30E5EFDAD66F548D61A /* UIColor+SteAddtion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+SteAddtion.m"; path = "SteFontsAndColors/Classes/UIColor+SteAddtion.m"; sourceTree = "<group>"; };
+		7727AC665F302FC5DE91E0C5D45FD4A8 /* Pods-SteFontsAndColors_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SteFontsAndColors_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		80595A45C31EF555E5CA832078895C89 /* Pods-SteFontsAndColors_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SteFontsAndColors_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		81DCA5D71EF3CA63615588FA6341CFB7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		85294094AC3F2A0A2987E99F7B414E8D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87866205158991ADD0146E2EAB865384 /* Pods-SteFontsAndColors_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SteFontsAndColors_Example.modulemap"; sourceTree = "<group>"; };
+		89CB4A754DF38E88CC8406D87618FFCE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		946043F65C8F3C858BFF7DB5CA911DCA /* SteColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SteColors.h; path = SteFontsAndColors/Classes/SteColors.h; sourceTree = "<group>"; };
+		94E3904E9310F94DAF651F665FEDAFF5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5340B8D8A23E615BDC13B59655338CD /* Pods_SteFontsAndColors_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SteFontsAndColors_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78854E6905C80481A3DAEEBE746E83C /* SteFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SteFont.h; path = SteFontsAndColors/Classes/SteFont.h; sourceTree = "<group>"; };
+		B9573251CEC46820F2B1831830B57D5A /* Pods-SteFontsAndColors_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SteFontsAndColors_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BF8FF542DE290E65065C7EA806D31348 /* Pods-SteFontsAndColors_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SteFontsAndColors_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C08590D06059182D76F1FF881C0344AA /* UIColor+SteAddtion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+SteAddtion.h"; path = "SteFontsAndColors/Classes/UIColor+SteAddtion.h"; sourceTree = "<group>"; };
+		C5E747F050A0F9F36E41914E35100547 /* Pods-SteFontsAndColors_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SteFontsAndColors_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB9C6D0B36AE54E2CE419821F4F9ED5C /* Pods-SteFontsAndColors_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SteFontsAndColors_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF7F84D32193197104FCED6B59CBE211 /* Pods-SteFontsAndColors_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SteFontsAndColors_Example-umbrella.h"; sourceTree = "<group>"; };
+		E048BA6753189F906A9A014E93ED1DD9 /* SteFontsAndColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SteFontsAndColors-dummy.m"; sourceTree = "<group>"; };
+		ED555861AA699864FFE2BB9E8766CFAB /* SteFontsAndColors.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SteFontsAndColors.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ED7088B1107166D4556FF3660001A7AB /* SteFontsAndColors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SteFontsAndColors.modulemap; sourceTree = "<group>"; };
+		EFD818F8B48C827005C5E06E4A01C7D5 /* Pods-SteFontsAndColors_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SteFontsAndColors_Example-dummy.m"; sourceTree = "<group>"; };
+		F785D902DB1DE4D85B28579BB9D6D126 /* SteFontsAndColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SteFontsAndColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F0581CCF9A330A7CE59912DD4F82A88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E18D15869811F1D5CC001EA36322F5A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9414DDC4CCC8B34E135D8B3AD67259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64A10D7D6FE48360109AD786FFD6708 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D487BF50E538296B45BADFF2AED51B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC97CC3F7453B6B73800FEA5F108761 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0425F6FB069DF9AAEE91F0DECBB49137 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88E5B003CCEA0D815741E4996D2FC4AF /* SteFontsAndColors */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5F0F0DE4C342F1B1190DDD00570C22F4 /* Pods-SteFontsAndColors_Example */ = {
+			isa = PBXGroup;
+			children = (
+				85294094AC3F2A0A2987E99F7B414E8D /* Info.plist */,
+				87866205158991ADD0146E2EAB865384 /* Pods-SteFontsAndColors_Example.modulemap */,
+				C5E747F050A0F9F36E41914E35100547 /* Pods-SteFontsAndColors_Example-acknowledgements.markdown */,
+				BF8FF542DE290E65065C7EA806D31348 /* Pods-SteFontsAndColors_Example-acknowledgements.plist */,
+				EFD818F8B48C827005C5E06E4A01C7D5 /* Pods-SteFontsAndColors_Example-dummy.m */,
+				4E94D462D94226EE49442E082790F89A /* Pods-SteFontsAndColors_Example-frameworks.sh */,
+				26CE158DEB00A6406AF6762932BFF60C /* Pods-SteFontsAndColors_Example-resources.sh */,
+				DF7F84D32193197104FCED6B59CBE211 /* Pods-SteFontsAndColors_Example-umbrella.h */,
+				80595A45C31EF555E5CA832078895C89 /* Pods-SteFontsAndColors_Example.debug.xcconfig */,
+				0DDFBA0357B88A7932641A02A38AB51A /* Pods-SteFontsAndColors_Example.release.xcconfig */,
+			);
+			name = "Pods-SteFontsAndColors_Example";
+			path = "Target Support Files/Pods-SteFontsAndColors_Example";
+			sourceTree = "<group>";
+		};
+		6307F037BDD7A0C3CDB90763E42AEF91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27FC61B35ABEC0404F17CC4847C18821 /* Pods_SteFontsAndColors_Example.framework */,
+				A5340B8D8A23E615BDC13B59655338CD /* Pods_SteFontsAndColors_Tests.framework */,
+				F785D902DB1DE4D85B28579BB9D6D126 /* SteFontsAndColors.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DEC4E0E6F20DAFA401E8915BDFF312D /* Pods-SteFontsAndColors_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				94E3904E9310F94DAF651F665FEDAFF5 /* Info.plist */,
+				48D07160A982AE2A332306B606AB34CF /* Pods-SteFontsAndColors_Tests.modulemap */,
+				6EF909C02979214CA1D71AC977E84C51 /* Pods-SteFontsAndColors_Tests-acknowledgements.markdown */,
+				CB9C6D0B36AE54E2CE419821F4F9ED5C /* Pods-SteFontsAndColors_Tests-acknowledgements.plist */,
+				0FB0918C8234F59AA5554B3996A9F798 /* Pods-SteFontsAndColors_Tests-dummy.m */,
+				0AC769890DEF37503C3736CE40C3E8AE /* Pods-SteFontsAndColors_Tests-frameworks.sh */,
+				42FB98D7E021B32D899813BE0FC7467F /* Pods-SteFontsAndColors_Tests-resources.sh */,
+				B9573251CEC46820F2B1831830B57D5A /* Pods-SteFontsAndColors_Tests-umbrella.h */,
+				7727AC665F302FC5DE91E0C5D45FD4A8 /* Pods-SteFontsAndColors_Tests.debug.xcconfig */,
+				0E0D8AA1A5BD9D149E388FA7C5B711D8 /* Pods-SteFontsAndColors_Tests.release.xcconfig */,
+			);
+			name = "Pods-SteFontsAndColors_Tests";
+			path = "Target Support Files/Pods-SteFontsAndColors_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0425F6FB069DF9AAEE91F0DECBB49137 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6307F037BDD7A0C3CDB90763E42AEF91 /* Products */,
+				C0F66B605D83AACC69041EE075125EC2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		88E5B003CCEA0D815741E4996D2FC4AF /* SteFontsAndColors */ = {
+			isa = PBXGroup;
+			children = (
+				946043F65C8F3C858BFF7DB5CA911DCA /* SteColors.h */,
+				2A99384DFAD1673D4C1CAAB339B7BF9F /* SteColors.m */,
+				B78854E6905C80481A3DAEEBE746E83C /* SteFont.h */,
+				4F2631632EB21B6E75B60E2158046BD7 /* SteFont.m */,
+				C08590D06059182D76F1FF881C0344AA /* UIColor+SteAddtion.h */,
+				725093C40377B30E5EFDAD66F548D61A /* UIColor+SteAddtion.m */,
+				A281FB79BF601B702D223D53A8571B04 /* Pod */,
+				99499A050DDC7050C719ADF5B07DC187 /* Support Files */,
+			);
+			name = SteFontsAndColors;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		99499A050DDC7050C719ADF5B07DC187 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				89CB4A754DF38E88CC8406D87618FFCE /* Info.plist */,
+				ED7088B1107166D4556FF3660001A7AB /* SteFontsAndColors.modulemap */,
+				0B6E472B4FFAF6A49061D7AEB5BED7F4 /* SteFontsAndColors.xcconfig */,
+				E048BA6753189F906A9A014E93ED1DD9 /* SteFontsAndColors-dummy.m */,
+				45D3DA3D31BE805D1EEBE9459C3C442D /* SteFontsAndColors-prefix.pch */,
+				6ADA4F56AB42F09C98ABB5336188B60A /* SteFontsAndColors-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SteFontsAndColors";
+			sourceTree = "<group>";
+		};
+		A281FB79BF601B702D223D53A8571B04 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				81DCA5D71EF3CA63615588FA6341CFB7 /* LICENSE */,
+				48F6143C10C374E9D843E5B7562CCC82 /* README.md */,
+				ED555861AA699864FFE2BB9E8766CFAB /* SteFontsAndColors.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0F66B605D83AACC69041EE075125EC2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F0F0DE4C342F1B1190DDD00570C22F4 /* Pods-SteFontsAndColors_Example */,
+				6DEC4E0E6F20DAFA401E8915BDFF312D /* Pods-SteFontsAndColors_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9BE0AFE021E1ED9F3CA0222420E91929 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BDE1BD2A28B66CDCE2C3E2DBAE3CF0 /* Pods-SteFontsAndColors_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B779CA82D87BD7CA8B09EF1474FF8D61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B429EA042616F39CF9C6BE4F5009ED97 /* SteColors.h in Headers */,
+				243466A2331DD51BB2C5F36672943AB1 /* SteFont.h in Headers */,
+				29E677F1E1A4A5690807E8F2E9B13EB9 /* SteFontsAndColors-umbrella.h in Headers */,
+				35A4A9AEAAF1C3F4E974E82830BF23CA /* UIColor+SteAddtion.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1AF1BAACCD630E7250E2EC9D18F08D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EEDF4C1960AE762DDF38DB9173D88D8 /* Pods-SteFontsAndColors_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5198C684332A4347E59ED6FB0C4C5495 /* SteFontsAndColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E28F6BFD8DFFD94E08D376973BD9BBC /* Build configuration list for PBXNativeTarget "SteFontsAndColors" */;
+			buildPhases = (
+				F78ADCB2778445E593E0B0D5A2ACD7BB /* Sources */,
+				4F0581CCF9A330A7CE59912DD4F82A88 /* Frameworks */,
+				B779CA82D87BD7CA8B09EF1474FF8D61 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SteFontsAndColors;
+			productName = SteFontsAndColors;
+			productReference = F785D902DB1DE4D85B28579BB9D6D126 /* SteFontsAndColors.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		61D3DA04D1A3C3893F31334C8D4D13F3 /* Pods-SteFontsAndColors_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF89906191E841D5C2462C30B91DB273 /* Build configuration list for PBXNativeTarget "Pods-SteFontsAndColors_Tests" */;
+			buildPhases = (
+				62DE229270471BE89D156044DA33A73A /* Sources */,
+				D487BF50E538296B45BADFF2AED51B80 /* Frameworks */,
+				9BE0AFE021E1ED9F3CA0222420E91929 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95058B7DB220D768B17EDFBD56CD5F09 /* PBXTargetDependency */,
+			);
+			name = "Pods-SteFontsAndColors_Tests";
+			productName = "Pods-SteFontsAndColors_Tests";
+			productReference = A5340B8D8A23E615BDC13B59655338CD /* Pods_SteFontsAndColors_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C648EDA083A75F6829A305CAA00132EE /* Pods-SteFontsAndColors_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CE436CF4641B0F99F977C6855066AEB /* Build configuration list for PBXNativeTarget "Pods-SteFontsAndColors_Example" */;
+			buildPhases = (
+				5E09187F40F7B0190C7B6E5CDC3871EA /* Sources */,
+				CD9414DDC4CCC8B34E135D8B3AD67259 /* Frameworks */,
+				DE1AF1BAACCD630E7250E2EC9D18F08D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE74210442398593B75ABF8583A036D6 /* PBXTargetDependency */,
+			);
+			name = "Pods-SteFontsAndColors_Example";
+			productName = "Pods-SteFontsAndColors_Example";
+			productReference = 27FC61B35ABEC0404F17CC4847C18821 /* Pods_SteFontsAndColors_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6307F037BDD7A0C3CDB90763E42AEF91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C648EDA083A75F6829A305CAA00132EE /* Pods-SteFontsAndColors_Example */,
+				61D3DA04D1A3C3893F31334C8D4D13F3 /* Pods-SteFontsAndColors_Tests */,
+				5198C684332A4347E59ED6FB0C4C5495 /* SteFontsAndColors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E09187F40F7B0190C7B6E5CDC3871EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202B39365AB65291F8BEC758542DD32E /* Pods-SteFontsAndColors_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62DE229270471BE89D156044DA33A73A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BFFD28AB6C443475BC9B8939A164189 /* Pods-SteFontsAndColors_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78ADCB2778445E593E0B0D5A2ACD7BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5F61FD4577D99338BEC8DBE7C7EC4F /* SteColors.m in Sources */,
+				A2702FDBC22A97439609C113671A8157 /* SteFont.m in Sources */,
+				0A5971E21025A81EECD35EC2A2ECF394 /* SteFontsAndColors-dummy.m in Sources */,
+				CB838F7CE0871F5451CC33F814B0FC21 /* UIColor+SteAddtion.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95058B7DB220D768B17EDFBD56CD5F09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SteFontsAndColors_Example";
+			target = C648EDA083A75F6829A305CAA00132EE /* Pods-SteFontsAndColors_Example */;
+			targetProxy = 67913E0E79D6372C11E2886B301C2EDB /* PBXContainerItemProxy */;
+		};
+		FE74210442398593B75ABF8583A036D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SteFontsAndColors;
+			target = 5198C684332A4347E59ED6FB0C4C5495 /* SteFontsAndColors */;
+			targetProxy = DC17A5C710DA6945BCBC9D2745525311 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04BA3DA3FE610E5BF23D0BC63F208DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DDFBA0357B88A7932641A02A38AB51A /* Pods-SteFontsAndColors_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SteFontsAndColors_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SteFontsAndColors_Example/Pods-SteFontsAndColors_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44BC776BBF811472FE0E88853DC5D8A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B6E472B4FFAF6A49061D7AEB5BED7F4 /* SteFontsAndColors.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SteFontsAndColors/SteFontsAndColors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SteFontsAndColors/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SteFontsAndColors/SteFontsAndColors.modulemap";
+				PRODUCT_MODULE_NAME = SteFontsAndColors;
+				PRODUCT_NAME = SteFontsAndColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		507B505E7FD28D21235C54161B0B201B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B6E472B4FFAF6A49061D7AEB5BED7F4 /* SteFontsAndColors.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SteFontsAndColors/SteFontsAndColors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SteFontsAndColors/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SteFontsAndColors/SteFontsAndColors.modulemap";
+				PRODUCT_MODULE_NAME = SteFontsAndColors;
+				PRODUCT_NAME = SteFontsAndColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B28509021348F0A54DA899021CAD1313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E0D8AA1A5BD9D149E388FA7C5B711D8 /* Pods-SteFontsAndColors_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SteFontsAndColors_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SteFontsAndColors_Tests/Pods-SteFontsAndColors_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B4FDE85046E59BA17F56F01D5241F51B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7727AC665F302FC5DE91E0C5D45FD4A8 /* Pods-SteFontsAndColors_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SteFontsAndColors_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SteFontsAndColors_Tests/Pods-SteFontsAndColors_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EFA900C997BC1DDD346A0C91EEA4E3FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80595A45C31EF555E5CA832078895C89 /* Pods-SteFontsAndColors_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SteFontsAndColors_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SteFontsAndColors_Example/Pods-SteFontsAndColors_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E28F6BFD8DFFD94E08D376973BD9BBC /* Build configuration list for PBXNativeTarget "SteFontsAndColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44BC776BBF811472FE0E88853DC5D8A9 /* Debug */,
+				507B505E7FD28D21235C54161B0B201B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CE436CF4641B0F99F977C6855066AEB /* Build configuration list for PBXNativeTarget "Pods-SteFontsAndColors_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA900C997BC1DDD346A0C91EEA4E3FC /* Debug */,
+				04BA3DA3FE610E5BF23D0BC63F208DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF89906191E841D5C2462C30B91DB273 /* Build configuration list for PBXNativeTarget "Pods-SteFontsAndColors_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4FDE85046E59BA17F56F01D5241F51B /* Debug */,
+				B28509021348F0A54DA899021CAD1313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
