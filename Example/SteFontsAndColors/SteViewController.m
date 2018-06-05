@@ -8,6 +8,10 @@
 
 #import "SteViewController.h"
 
+#import <SteFontsAndColors/SteFont.h>
+#import <SteFontsAndColors/SteColors.h>
+#import <SteFontsAndColors/UIColor+SteAddtion.h>
+
 @interface SteViewController ()
 
 @end
