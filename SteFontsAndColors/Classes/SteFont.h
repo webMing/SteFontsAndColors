@@ -61,8 +61,8 @@ FOUNDATION_EXPORT UIFont* StePFThinFontWithSize(CGFloat size);
 
 
 /*尝试themeFont PrimaryFont
- 1.首先想到是通过动态改变UIFont.pointSize 来改变字体大小.但是系统的pointSize是readOnly 这种方法是行不通的;
- 2.通过继承来实现,此方法的副作用就是 “增添了一些类” , 通过协议也是需要继承;
+ 1.首先想到是通过动态改变UIFont.pointSize 来改变字体大小.但是系统的pointSize是readOnly 这种方法是行不通的;或者通过KVO的方式来实现也是行不通的还是因为是readOnly的缘故
+ 2. (1)通过继承来实现,此方法的副作用就是 “增添了一些类” ,自定义一个控件，监听调整字体大小改变的通知，然后改变自己的字体; 当不需要通过设置来实现动态改变字体大小的时候，可以在layoutSubViews中根据屏幕数据改变控件自身字体大小;而当需要通过设置来实现改变字体大小的时候自定义控件然后添加观察改变字体的通知然后动态改变字体大小.
  3.method swizzling hook UILable SearchBar NaviBar UIButton UItextFiled UITextView UISegment UITabBar UIToolBar.... 注意UIWebView
  
  */
