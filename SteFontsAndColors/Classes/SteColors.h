@@ -17,6 +17,8 @@ A
  B
  C
  M
+ 暂存区
+ 未暂存
  UIColor* SteWhiteColor;
  UIColor* SteRedColor;
  UIColor* SteGrayColor;
