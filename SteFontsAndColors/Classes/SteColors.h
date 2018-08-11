@@ -15,6 +15,7 @@
  >1 根据颜色名称定义Color
 A
  这个是新添加的代码
+
  UIColor* SteWhiteColor;
  UIColor* SteRedColor;
  UIColor* SteGrayColor;
