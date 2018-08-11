@@ -13,7 +13,6 @@
 /*
 
  >1 根据颜色名称定义Color
- // 当前工作在SteDev分支上面
  UIColor* SteWhiteColor;
  UIColor* SteRedColor;
  UIColor* SteGrayColor;
