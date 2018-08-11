@@ -14,12 +14,7 @@
 
  >1 根据颜色名称定义Color
 A
-<<<<<<< HEAD
-  V
-    F
 
-=======
->>>>>>> parent of 4a86d7a... add V
  UIColor* SteWhiteColor;
  UIColor* SteRedColor;
  UIColor* SteGrayColor;
