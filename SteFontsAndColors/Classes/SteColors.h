@@ -14,7 +14,6 @@
 
  >1 根据颜色名称定义Color
 A
-
  UIColor* SteWhiteColor;
  UIColor* SteRedColor;
  UIColor* SteGrayColor;
