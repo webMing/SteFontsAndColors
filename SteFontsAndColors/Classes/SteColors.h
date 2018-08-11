@@ -16,6 +16,7 @@
 A
  B
  C
+ M
  UIColor* SteWhiteColor;
  UIColor* SteRedColor;
  UIColor* SteGrayColor;
