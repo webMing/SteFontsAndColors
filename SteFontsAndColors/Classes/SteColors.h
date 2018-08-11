@@ -13,10 +13,7 @@
 /*
 
  >1 根据颜色名称定义Color
-A
- B
-  C
-    我和你心连心
+
  UIColor* SteWhiteColor;
  UIColor* SteRedColor;
  UIColor* SteGrayColor;
