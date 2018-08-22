@@ -48,6 +48,10 @@ inline UIColor* SteClearColor(void) {
     return [UIColor clearColor];
 }
 
+// 通用形式
+inline UIColor* SteColorWithHexValueAndAlpha(NSInteger hex,CGFloat alpha) {
+    return [UIColor colorWithHex:hex alpha:alpha];
+}
 
 
 

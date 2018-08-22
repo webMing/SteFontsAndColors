@@ -21,7 +21,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    UIColor *a = AAAColorWithHexValueAndAlpha(0x0E0F1A, 1.0); //这个用的是宏
+    UIColor *b = SteColorWithHexValueAndAlpha(0x8c5828, 1.0); //这个使用的C函数
+    UIColor *c = BBBColorWithHexValueAndAlpha(0x8c5828, 1.0); //这个用的是宏
+
 }
 
 - (void)didReceiveMemoryWarning

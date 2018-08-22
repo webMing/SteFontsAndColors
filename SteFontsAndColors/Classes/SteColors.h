@@ -98,3 +98,12 @@ UIColor* SteColorWithHexRGBSpace(int h);
 UIColor* SteColorWithHexRGBASpace(int h,float a);
 */
 
+//通用形式的代码
+
+//对C函数的宏的封装
+#define AAAColorWithHexValueAndAlpha(hex,alpha) SteColorWithHexValueAndAlpha((hex),(alpha))
+
+FOUNDATION_EXPORT  UIColor* SteColorWithHexValueAndAlpha(NSInteger hex,CGFloat alpha);
+
+#define BBBColorWithHexValueAndAlpha(hex,alph) [UIColor colorWithHex:(hex) alpha:(alph)]
+

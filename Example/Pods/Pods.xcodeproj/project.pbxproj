@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		04BDE1BD2A28B66CDCE2C3E2DBAE3CF0 /* Pods-SteFontsAndColors_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9573251CEC46820F2B1831830B57D5A /* Pods-SteFontsAndColors_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A5971E21025A81EECD35EC2A2ECF394 /* SteFontsAndColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E048BA6753189F906A9A014E93ED1DD9 /* SteFontsAndColors-dummy.m */; };
+		101CC1495FB7D71C5153AC97C1C10A66 /* SteFont.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA9F29B1072A6007699450EF7D0B6AF /* SteFont.m */; };
 		202B39365AB65291F8BEC758542DD32E /* Pods-SteFontsAndColors_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD818F8B48C827005C5E06E4A01C7D5 /* Pods-SteFontsAndColors_Example-dummy.m */; };
-		243466A2331DD51BB2C5F36672943AB1 /* SteFont.h in Headers */ = {isa = PBXBuildFile; fileRef = B78854E6905C80481A3DAEEBE746E83C /* SteFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29E677F1E1A4A5690807E8F2E9B13EB9 /* SteFontsAndColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ADA4F56AB42F09C98ABB5336188B60A /* SteFontsAndColors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35A4A9AEAAF1C3F4E974E82830BF23CA /* UIColor+SteAddtion.h in Headers */ = {isa = PBXBuildFile; fileRef = C08590D06059182D76F1FF881C0344AA /* UIColor+SteAddtion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		243466A2331DD51BB2C5F36672943AB1 /* SteFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 99E54137A95C63EC544C8912D30E020F /* SteFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29E677F1E1A4A5690807E8F2E9B13EB9 /* SteFontsAndColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08DF6EFEF30B395F98BB18A2FE62E092 /* SteFontsAndColors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35A4A9AEAAF1C3F4E974E82830BF23CA /* UIColor+SteAddtion.h in Headers */ = {isa = PBXBuildFile; fileRef = F3EE304B104E6890A33EB482BEE5A5C2 /* UIColor+SteAddtion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E18D15869811F1D5CC001EA36322F5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		4BFFD28AB6C443475BC9B8939A164189 /* Pods-SteFontsAndColors_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB0918C8234F59AA5554B3996A9F798 /* Pods-SteFontsAndColors_Tests-dummy.m */; };
-		8A5F61FD4577D99338BEC8DBE7C7EC4F /* SteColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A99384DFAD1673D4C1CAAB339B7BF9F /* SteColors.m */; };
 		9EEDF4C1960AE762DDF38DB9173D88D8 /* Pods-SteFontsAndColors_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF7F84D32193197104FCED6B59CBE211 /* Pods-SteFontsAndColors_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9FC97CC3F7453B6B73800FEA5F108761 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A2702FDBC22A97439609C113671A8157 /* SteFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2631632EB21B6E75B60E2158046BD7 /* SteFont.m */; };
-		B429EA042616F39CF9C6BE4F5009ED97 /* SteColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 946043F65C8F3C858BFF7DB5CA911DCA /* SteColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB838F7CE0871F5451CC33F814B0FC21 /* UIColor+SteAddtion.m in Sources */ = {isa = PBXBuildFile; fileRef = 725093C40377B30E5EFDAD66F548D61A /* UIColor+SteAddtion.m */; };
+		A7FD62654D33A5EDA3151CD6F956D38C /* SteFontsAndColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CE276F4D05A506197012FC0E740E83 /* SteFontsAndColors-dummy.m */; };
+		A898B33704E8EF2628E96B2E29C75034 /* SteColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DD56560E7586ACC65B52DE95874D66 /* SteColors.m */; };
+		B429EA042616F39CF9C6BE4F5009ED97 /* SteColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 147D1656EAACEDA161121545B6C3B3E3 /* SteColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D54A18FE1B6FD35EEC7B242831734C46 /* UIColor+SteAddtion.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD59BD50160A1855D9F2AD7E1AB0A5A /* UIColor+SteAddtion.m */; };
 		D64A10D7D6FE48360109AD786FFD6708 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,46 +42,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08DF6EFEF30B395F98BB18A2FE62E092 /* SteFontsAndColors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SteFontsAndColors-umbrella.h"; sourceTree = "<group>"; };
 		0AC769890DEF37503C3736CE40C3E8AE /* Pods-SteFontsAndColors_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SteFontsAndColors_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		0B6E472B4FFAF6A49061D7AEB5BED7F4 /* SteFontsAndColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SteFontsAndColors.xcconfig; sourceTree = "<group>"; };
 		0DDFBA0357B88A7932641A02A38AB51A /* Pods-SteFontsAndColors_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SteFontsAndColors_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0E0D8AA1A5BD9D149E388FA7C5B711D8 /* Pods-SteFontsAndColors_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SteFontsAndColors_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0FB0918C8234F59AA5554B3996A9F798 /* Pods-SteFontsAndColors_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SteFontsAndColors_Tests-dummy.m"; sourceTree = "<group>"; };
+		147D1656EAACEDA161121545B6C3B3E3 /* SteColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SteColors.h; path = SteFontsAndColors/Classes/SteColors.h; sourceTree = "<group>"; };
+		1FD59BD50160A1855D9F2AD7E1AB0A5A /* UIColor+SteAddtion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+SteAddtion.m"; path = "SteFontsAndColors/Classes/UIColor+SteAddtion.m"; sourceTree = "<group>"; };
+		21BF8C5F1BAFA0E7A124AC418A890B56 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		24E84F445BE041DE4C2F5833BA08E761 /* SteFontsAndColors.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SteFontsAndColors.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		26CE158DEB00A6406AF6762932BFF60C /* Pods-SteFontsAndColors_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SteFontsAndColors_Example-resources.sh"; sourceTree = "<group>"; };
-		27FC61B35ABEC0404F17CC4847C18821 /* Pods_SteFontsAndColors_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SteFontsAndColors_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A99384DFAD1673D4C1CAAB339B7BF9F /* SteColors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SteColors.m; path = SteFontsAndColors/Classes/SteColors.m; sourceTree = "<group>"; };
+		27FC61B35ABEC0404F17CC4847C18821 /* Pods_SteFontsAndColors_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SteFontsAndColors_Example.framework; path = "Pods-SteFontsAndColors_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E6CEBE3B2BF704510160A0803A3843 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42FB98D7E021B32D899813BE0FC7467F /* Pods-SteFontsAndColors_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SteFontsAndColors_Tests-resources.sh"; sourceTree = "<group>"; };
-		45D3DA3D31BE805D1EEBE9459C3C442D /* SteFontsAndColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SteFontsAndColors-prefix.pch"; sourceTree = "<group>"; };
 		48D07160A982AE2A332306B606AB34CF /* Pods-SteFontsAndColors_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SteFontsAndColors_Tests.modulemap"; sourceTree = "<group>"; };
-		48F6143C10C374E9D843E5B7562CCC82 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4ADAC5D7B2430B41542FB4B9CD101998 /* SteFontsAndColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SteFontsAndColors-prefix.pch"; sourceTree = "<group>"; };
+		4C4409E061908C543DD1E8D8278400AF /* SteFontsAndColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SteFontsAndColors.xcconfig; sourceTree = "<group>"; };
 		4E94D462D94226EE49442E082790F89A /* Pods-SteFontsAndColors_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SteFontsAndColors_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4F2631632EB21B6E75B60E2158046BD7 /* SteFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SteFont.m; path = SteFontsAndColors/Classes/SteFont.m; sourceTree = "<group>"; };
+		6162C251287539CB1AD1E1C6E8115468 /* SteFontsAndColors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SteFontsAndColors.modulemap; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6ADA4F56AB42F09C98ABB5336188B60A /* SteFontsAndColors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SteFontsAndColors-umbrella.h"; sourceTree = "<group>"; };
 		6EF909C02979214CA1D71AC977E84C51 /* Pods-SteFontsAndColors_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SteFontsAndColors_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		725093C40377B30E5EFDAD66F548D61A /* UIColor+SteAddtion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+SteAddtion.m"; path = "SteFontsAndColors/Classes/UIColor+SteAddtion.m"; sourceTree = "<group>"; };
 		7727AC665F302FC5DE91E0C5D45FD4A8 /* Pods-SteFontsAndColors_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SteFontsAndColors_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B4B6E60614438D47117BB81E6C9A358 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		80595A45C31EF555E5CA832078895C89 /* Pods-SteFontsAndColors_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SteFontsAndColors_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		81DCA5D71EF3CA63615588FA6341CFB7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		81DD56560E7586ACC65B52DE95874D66 /* SteColors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SteColors.m; path = SteFontsAndColors/Classes/SteColors.m; sourceTree = "<group>"; };
 		85294094AC3F2A0A2987E99F7B414E8D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87866205158991ADD0146E2EAB865384 /* Pods-SteFontsAndColors_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SteFontsAndColors_Example.modulemap"; sourceTree = "<group>"; };
-		89CB4A754DF38E88CC8406D87618FFCE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		946043F65C8F3C858BFF7DB5CA911DCA /* SteColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SteColors.h; path = SteFontsAndColors/Classes/SteColors.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94E3904E9310F94DAF651F665FEDAFF5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5340B8D8A23E615BDC13B59655338CD /* Pods_SteFontsAndColors_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SteFontsAndColors_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B78854E6905C80481A3DAEEBE746E83C /* SteFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SteFont.h; path = SteFontsAndColors/Classes/SteFont.h; sourceTree = "<group>"; };
+		99E54137A95C63EC544C8912D30E020F /* SteFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SteFont.h; path = SteFontsAndColors/Classes/SteFont.h; sourceTree = "<group>"; };
+		A5340B8D8A23E615BDC13B59655338CD /* Pods_SteFontsAndColors_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SteFontsAndColors_Tests.framework; path = "Pods-SteFontsAndColors_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9573251CEC46820F2B1831830B57D5A /* Pods-SteFontsAndColors_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SteFontsAndColors_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BF8FF542DE290E65065C7EA806D31348 /* Pods-SteFontsAndColors_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SteFontsAndColors_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C08590D06059182D76F1FF881C0344AA /* UIColor+SteAddtion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+SteAddtion.h"; path = "SteFontsAndColors/Classes/UIColor+SteAddtion.h"; sourceTree = "<group>"; };
 		C5E747F050A0F9F36E41914E35100547 /* Pods-SteFontsAndColors_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SteFontsAndColors_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CB9C6D0B36AE54E2CE419821F4F9ED5C /* Pods-SteFontsAndColors_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SteFontsAndColors_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CDA9F29B1072A6007699450EF7D0B6AF /* SteFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SteFont.m; path = SteFontsAndColors/Classes/SteFont.m; sourceTree = "<group>"; };
 		DF7F84D32193197104FCED6B59CBE211 /* Pods-SteFontsAndColors_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SteFontsAndColors_Example-umbrella.h"; sourceTree = "<group>"; };
-		E048BA6753189F906A9A014E93ED1DD9 /* SteFontsAndColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SteFontsAndColors-dummy.m"; sourceTree = "<group>"; };
-		ED555861AA699864FFE2BB9E8766CFAB /* SteFontsAndColors.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SteFontsAndColors.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ED7088B1107166D4556FF3660001A7AB /* SteFontsAndColors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SteFontsAndColors.modulemap; sourceTree = "<group>"; };
 		EFD818F8B48C827005C5E06E4A01C7D5 /* Pods-SteFontsAndColors_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SteFontsAndColors_Example-dummy.m"; sourceTree = "<group>"; };
-		F785D902DB1DE4D85B28579BB9D6D126 /* SteFontsAndColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SteFontsAndColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3EE304B104E6890A33EB482BEE5A5C2 /* UIColor+SteAddtion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+SteAddtion.h"; path = "SteFontsAndColors/Classes/UIColor+SteAddtion.h"; sourceTree = "<group>"; };
+		F4CE276F4D05A506197012FC0E740E83 /* SteFontsAndColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SteFontsAndColors-dummy.m"; sourceTree = "<group>"; };
+		F785D902DB1DE4D85B28579BB9D6D126 /* SteFontsAndColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SteFontsAndColors.framework; path = SteFontsAndColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +112,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0425F6FB069DF9AAEE91F0DECBB49137 /* Development Pods */ = {
+		0614CED34363342184EA2F67F3B142EF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				88E5B003CCEA0D815741E4996D2FC4AF /* SteFontsAndColors */,
+				30E6CEBE3B2BF704510160A0803A3843 /* Info.plist */,
+				6162C251287539CB1AD1E1C6E8115468 /* SteFontsAndColors.modulemap */,
+				4C4409E061908C543DD1E8D8278400AF /* SteFontsAndColors.xcconfig */,
+				F4CE276F4D05A506197012FC0E740E83 /* SteFontsAndColors-dummy.m */,
+				4ADAC5D7B2430B41542FB4B9CD101998 /* SteFontsAndColors-prefix.pch */,
+				08DF6EFEF30B395F98BB18A2FE62E092 /* SteFontsAndColors-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SteFontsAndColors";
 			sourceTree = "<group>";
 		};
 		5F0F0DE4C342F1B1190DDD00570C22F4 /* Pods-SteFontsAndColors_Example */ = {
@@ -166,55 +172,49 @@
 			path = "Target Support Files/Pods-SteFontsAndColors_Tests";
 			sourceTree = "<group>";
 		};
+		782580DAD6E3AF6C172DCFA302384FB1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7B4B6E60614438D47117BB81E6C9A358 /* LICENSE */,
+				21BF8C5F1BAFA0E7A124AC418A890B56 /* README.md */,
+				24E84F445BE041DE4C2F5833BA08E761 /* SteFontsAndColors.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				0425F6FB069DF9AAEE91F0DECBB49137 /* Development Pods */,
+				B1FECF5E2AD2B2088293F3E3FB38F18A /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				6307F037BDD7A0C3CDB90763E42AEF91 /* Products */,
 				C0F66B605D83AACC69041EE075125EC2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		88E5B003CCEA0D815741E4996D2FC4AF /* SteFontsAndColors */ = {
+		AF691FFAED1465FB2039501BB5E1EBE2 /* SteFontsAndColors */ = {
 			isa = PBXGroup;
 			children = (
-				946043F65C8F3C858BFF7DB5CA911DCA /* SteColors.h */,
-				2A99384DFAD1673D4C1CAAB339B7BF9F /* SteColors.m */,
-				B78854E6905C80481A3DAEEBE746E83C /* SteFont.h */,
-				4F2631632EB21B6E75B60E2158046BD7 /* SteFont.m */,
-				C08590D06059182D76F1FF881C0344AA /* UIColor+SteAddtion.h */,
-				725093C40377B30E5EFDAD66F548D61A /* UIColor+SteAddtion.m */,
-				A281FB79BF601B702D223D53A8571B04 /* Pod */,
-				99499A050DDC7050C719ADF5B07DC187 /* Support Files */,
+				147D1656EAACEDA161121545B6C3B3E3 /* SteColors.h */,
+				81DD56560E7586ACC65B52DE95874D66 /* SteColors.m */,
+				99E54137A95C63EC544C8912D30E020F /* SteFont.h */,
+				CDA9F29B1072A6007699450EF7D0B6AF /* SteFont.m */,
+				F3EE304B104E6890A33EB482BEE5A5C2 /* UIColor+SteAddtion.h */,
+				1FD59BD50160A1855D9F2AD7E1AB0A5A /* UIColor+SteAddtion.m */,
+				782580DAD6E3AF6C172DCFA302384FB1 /* Pod */,
+				0614CED34363342184EA2F67F3B142EF /* Support Files */,
 			);
 			name = SteFontsAndColors;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		99499A050DDC7050C719ADF5B07DC187 /* Support Files */ = {
+		B1FECF5E2AD2B2088293F3E3FB38F18A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				89CB4A754DF38E88CC8406D87618FFCE /* Info.plist */,
-				ED7088B1107166D4556FF3660001A7AB /* SteFontsAndColors.modulemap */,
-				0B6E472B4FFAF6A49061D7AEB5BED7F4 /* SteFontsAndColors.xcconfig */,
-				E048BA6753189F906A9A014E93ED1DD9 /* SteFontsAndColors-dummy.m */,
-				45D3DA3D31BE805D1EEBE9459C3C442D /* SteFontsAndColors-prefix.pch */,
-				6ADA4F56AB42F09C98ABB5336188B60A /* SteFontsAndColors-umbrella.h */,
+				AF691FFAED1465FB2039501BB5E1EBE2 /* SteFontsAndColors */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SteFontsAndColors";
-			sourceTree = "<group>";
-		};
-		A281FB79BF601B702D223D53A8571B04 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				81DCA5D71EF3CA63615588FA6341CFB7 /* LICENSE */,
-				48F6143C10C374E9D843E5B7562CCC82 /* README.md */,
-				ED555861AA699864FFE2BB9E8766CFAB /* SteFontsAndColors.podspec */,
-			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -279,7 +279,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E28F6BFD8DFFD94E08D376973BD9BBC /* Build configuration list for PBXNativeTarget "SteFontsAndColors" */;
 			buildPhases = (
-				F78ADCB2778445E593E0B0D5A2ACD7BB /* Sources */,
+				7AEBE1E051E65686F67B010CBC5F9C11 /* Sources */,
 				4F0581CCF9A330A7CE59912DD4F82A88 /* Frameworks */,
 				B779CA82D87BD7CA8B09EF1474FF8D61 /* Headers */,
 			);
@@ -373,14 +373,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F78ADCB2778445E593E0B0D5A2ACD7BB /* Sources */ = {
+		7AEBE1E051E65686F67B010CBC5F9C11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A5F61FD4577D99338BEC8DBE7C7EC4F /* SteColors.m in Sources */,
-				A2702FDBC22A97439609C113671A8157 /* SteFont.m in Sources */,
-				0A5971E21025A81EECD35EC2A2ECF394 /* SteFontsAndColors-dummy.m in Sources */,
-				CB838F7CE0871F5451CC33F814B0FC21 /* UIColor+SteAddtion.m in Sources */,
+				A898B33704E8EF2628E96B2E29C75034 /* SteColors.m in Sources */,
+				101CC1495FB7D71C5153AC97C1C10A66 /* SteFont.m in Sources */,
+				A7FD62654D33A5EDA3151CD6F956D38C /* SteFontsAndColors-dummy.m in Sources */,
+				D54A18FE1B6FD35EEC7B242831734C46 /* UIColor+SteAddtion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +438,7 @@
 		};
 		44BC776BBF811472FE0E88853DC5D8A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B6E472B4FFAF6A49061D7AEB5BED7F4 /* SteFontsAndColors.xcconfig */;
+			baseConfigurationReference = 4C4409E061908C543DD1E8D8278400AF /* SteFontsAndColors.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -468,7 +468,7 @@
 		};
 		507B505E7FD28D21235C54161B0B201B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B6E472B4FFAF6A49061D7AEB5BED7F4 /* SteFontsAndColors.xcconfig */;
+			baseConfigurationReference = 4C4409E061908C543DD1E8D8278400AF /* SteFontsAndColors.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
